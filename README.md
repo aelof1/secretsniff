@@ -34,7 +34,7 @@ To avoid false positives, the tool:
 
 ## Requirements
 
-- **Python 3.9 or newer**
+- **Python 3.10 or newer**
 - **Git**, only for the `--git` option (history scan)
 - No external Python libraries
 

@@ -7,7 +7,7 @@ name = "secretsniff"
 version = "1.0.0"
 description = "Find API keys, passwords and private keys in code and git history"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 license = { text = "MIT" }
 dependencies = []
 
