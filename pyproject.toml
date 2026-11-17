@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "secretsniff"
+version = "1.0.0"
+description = "Find API keys, passwords and private keys in code and git history"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+secretsniff = "secretsniff.cli:main"
+
+[tool.setuptools]
+packages = ["secretsniff"]
